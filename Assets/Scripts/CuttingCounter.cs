@@ -24,7 +24,7 @@ public class CuttingCounter : BaseCounter
                 // Player is not carrying anything
                 this.GetKitchenObject().SetKitchenObjectParent(player);
             } else {
-                // Player is carrying something - don't do anything
+                // Player is carrying something - don't do anything - no swap currently in design
             }
         }
     }
@@ -34,7 +34,6 @@ public class CuttingCounter : BaseCounter
             // There is a KitchenObject here AND it can be cut
             KitchenObjectSO outputKitchenObjectSO = GetOutputForInput(GetKitchenObject().GetKitchenObjectSO());
             GetKitchenObject().DestroySelf();
-
             KitchenObject.SpawnKitchenObject(outputKitchenObjectSO, this);
         }
     }
