@@ -131,6 +131,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7cd75932169768438ee4576d347aef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mode: 0
+  Camera: {fileID: 0}
 --- !u!1 &6753101514383539610
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,12 +317,12 @@ PrefabInstance:
     - target: {fileID: 8640100414601809798, guid: 5e981ad04948c1f4cb4188d5d7c5a607,
         type: 3}
       propertyPath: m_RootOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8640100414601809798, guid: 5e981ad04948c1f4cb4188d5d7c5a607,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8640100414601809798, guid: 5e981ad04948c1f4cb4188d5d7c5a607,
         type: 3}
@@ -330,7 +332,7 @@ PrefabInstance:
     - target: {fileID: 8640100414601809798, guid: 5e981ad04948c1f4cb4188d5d7c5a607,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8640100414601809798, guid: 5e981ad04948c1f4cb4188d5d7c5a607,
         type: 3}
