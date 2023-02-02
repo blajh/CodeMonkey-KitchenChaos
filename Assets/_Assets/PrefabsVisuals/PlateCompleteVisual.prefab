@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 408889407006782756}
-  - component: {fileID: 227371416548710169}
   m_Layer: 0
   m_Name: PlateCompleteVisual
   m_TagString: Untagged
@@ -30,28 +29,14 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3550707552663613202}
-  - {fileID: 3550707552397226384}
-  - {fileID: 3550707550894988254}
-  - {fileID: 3611271270719445376}
   - {fileID: 3550707552375629788}
   - {fileID: 3550707551136013322}
+  - {fileID: 3550707550894988254}
+  - {fileID: 3550707552397226384}
+  - {fileID: 3611271270719445376}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &227371416548710169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 408889407006782757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b7adaa64ceef584687a1f01a1279296, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  plateKitchenObject: {fileID: 0}
-  kitchenObjectSOGameObjectsList: []
 --- !u!1001 &408889405707390302
 PrefabInstance:
   m_ObjectHideFlags: 0
