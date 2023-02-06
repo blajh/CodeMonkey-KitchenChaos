@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c448167b01b48e4bb8400e3b28e41ed, type: 3}
-  m_Name: MeatPattyCooked-MeatPattyBurned
+  m_Script: {fileID: 11500000, guid: ac598ef532706754aba9ba53fd69a0f6, type: 3}
+  m_Name: Salad
   m_EditorClassIdentifier: 
-  input: {fileID: 11400000, guid: 1f60c298e8c92c34a880b64633c230bc, type: 2}
-  output: {fileID: 11400000, guid: 7864c355c5b33e8468e16c75f407018e, type: 2}
-  burningTimerMax: 5
+  recipeName: Salad
+  kitchenObjectSOList:
+  - {fileID: 11400000, guid: 720270c157cfc624397306d534b6a911, type: 2}
+  - {fileID: 11400000, guid: 8fad85f48e18a224695f45223251f05a, type: 2}
