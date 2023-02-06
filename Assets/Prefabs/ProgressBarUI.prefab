@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1916055711624962729}
   - component: {fileID: 6440896686122353096}
   - component: {fileID: 6249192800463812143}
-  - component: {fileID: 5604186822718823022}
   - component: {fileID: 5461966364235232455}
+  - component: {fileID: 7168654904228346928}
   m_Layer: 6
   m_Name: ProgressBarUI
   m_TagString: Untagged
@@ -87,7 +87,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &6249192800463812143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,20 +105,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &5604186822718823022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1908139044583661642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4df2785e9a1546b4bb6d721c83d6f2be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cuttingCounter: {fileID: 0}
-  barImage: {fileID: 2655896735917758333}
 --- !u!114 &5461966364235232455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,6 +119,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mode: 0
   Camera: {fileID: 0}
+--- !u!114 &7168654904228346928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908139044583661642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df2785e9a1546b4bb6d721c83d6f2be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasProgressGameObject: {fileID: 0}
+  barImage: {fileID: 2655896735917758333}
 --- !u!1 &5631906616094920052
 GameObject:
   m_ObjectHideFlags: 0

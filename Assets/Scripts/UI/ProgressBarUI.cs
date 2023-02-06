@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ProgressBarUI : MonoBehaviour
-{
+public class ProgressBarUI : MonoBehaviour {
     [SerializeField] private GameObject hasProgressGameObject;
     [SerializeField] private Image barImage;
 

@@ -273,8 +273,8 @@ GameObject:
   - component: {fileID: 8060587186678540483}
   - component: {fileID: 1112990334553260890}
   - component: {fileID: 2594372379606591357}
-  - component: {fileID: 5010127337218681712}
   - component: {fileID: 6300748993324846950}
+  - component: {fileID: 4888404799644121304}
   m_Layer: 0
   m_Name: PlateIconsUI
   m_TagString: Untagged
@@ -389,20 +389,6 @@ MonoBehaviour:
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
---- !u!114 &5010127337218681712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8492909348514902109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 624be257c36c57c4c89e883197facf0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  plateKitchenObject: {fileID: -7703318519750907355}
-  iconTemplate: {fileID: 9010950415124567333}
 --- !u!114 &6300748993324846950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -417,6 +403,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mode: 2
   Camera: {fileID: 0}
+--- !u!114 &4888404799644121304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8492909348514902109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 624be257c36c57c4c89e883197facf0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plateKitchenObject: {fileID: -7703318519750907355}
+  iconTemplate: {fileID: 9010950415124567333}
 --- !u!1001 &2777787267480906950
 PrefabInstance:
   m_ObjectHideFlags: 0
