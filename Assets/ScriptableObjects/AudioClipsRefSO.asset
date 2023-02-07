@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 8b239661c5b6d904a9a1d10af535117e, type: 3}
   m_Name: AudioClipsRefSO
   m_EditorClassIdentifier: Assembly-CSharp::AudioClipRefSO
   stoveSizzle: {fileID: 8300000, guid: 511c1cbfb8b48b64083aec78fe17115f, type: 3}
