@@ -13,7 +13,7 @@ public class ContainerCounter : BaseCounter
         if (!player.HasKitchenObject()) {
             // Player has nothing
             KitchenObject.SpawnKitchenObject(kitchenObjectSO, player);            
-            OnPlayerGrabObject?.Invoke(this, EventArgs.Empty);
+            OnPlayerGrabObject?.Invoke(this, EventArgs.Empty);            
         }
     }
 }
