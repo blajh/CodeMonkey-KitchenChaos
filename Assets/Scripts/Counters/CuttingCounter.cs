@@ -7,6 +7,13 @@ using UnityEngine;
 public class CuttingCounter : BaseCounter, IHasProgress
 {
     public static event EventHandler OnAnyCut; // Any instance did this event, not a single Instance
+
+    // This clears any static event data so that it does not persist on Level reload
+    // called in ResetStaticDataManager
+    new public static void ResetStaticData() {
+        OnAnyCut = null;
+    }
+
     public event EventHandler<IHasProgress.OnProgressChangedEventArgs> OnProgressChanged;
     public event EventHandler OnCut;
 
@@ -56,7 +63,7 @@ public class CuttingCounter : BaseCounter, IHasProgress
             // There is a KitchenObject here AND it can be cut
             cuttingProgress++;
 
-            OnCut?.Invoke (this, EventArgs.Empty);
+            OnCut?.Invoke (this, EventArgs.Empty);            
             OnAnyCut?.Invoke(this, EventArgs.Empty);
 
             CuttingRecipeSO cuttingRecipeSO = GetCuttingRecipeSOWithInput(GetKitchenObject().GetKitchenObjectSO());

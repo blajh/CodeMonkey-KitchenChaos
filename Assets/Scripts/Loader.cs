@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public static class Loader
 {
-    // These are case sensitive since they get converted to string before loading
+    // These are case sensitive since they get converted to strings (of Scene names) before loading
     public enum Scene {
         MainMenuScene,
         LoadingScene,

@@ -7,6 +7,12 @@ public class BaseCounter : MonoBehaviour, IKitchenObjectParent {
 
     public static event EventHandler OnAnyObjectPlacedHere;
 
+    // This clears any static event data so that it does not persist on Level reload
+    // called in ResetStaticDataManager
+    public static void ResetStaticData() {
+        OnAnyObjectPlacedHere = null;
+    }
+
     [SerializeField] private Transform counterTopPoint;
 
     private KitchenObject kitchenObject;
