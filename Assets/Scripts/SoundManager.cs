@@ -63,7 +63,11 @@ public class SoundManager : MonoBehaviour
         PlaySound(audioClipArray[Random.Range(0, audioClipArray.Length)], position, volume);        
     }
 
-    public void PlayFootstepsSound (Vector3 position, float volume) {
+    public void PlayCountdownSound () {
+        PlaySound(audioClipRefSO.warning, Vector3.zero);
+    }
+
+    public void PlayFootstepsSound(Vector3 position, float volume) {
         PlaySound(audioClipRefSO.footstep, position, volume);
     }
 
